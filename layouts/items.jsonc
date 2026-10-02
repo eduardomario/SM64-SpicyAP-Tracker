@@ -23,6 +23,15 @@
               [
                 "consumable",
                 "progressive_toggle"
+              ],
+              [
+                "butterfly_menu",
+                "1up_menu",
+                "1up_trigger_menu",
+                "single_coins_menu",
+                "wing_cap_box_menu",
+                "yoshi_menu",
+                "cannon_menu"
               ]
             ]
           }

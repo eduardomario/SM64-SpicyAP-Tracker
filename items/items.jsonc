@@ -52,5 +52,47 @@
         "inherit_codes": false
       }
     ]
+  },
+  {
+    "name": "Butterflies",
+    "type": "toggle",
+    "img": "images/items/triggers/butterfly.png",
+    "codes": "butterfly_menu"
+  },
+  {
+    "name": "1UP",
+    "type": "toggle",
+    "img": "images/items/collectables/1up.png",
+    "codes": "1up_menu"
+  },
+  {
+    "name": "1UP Trigger",
+    "type": "toggle",
+    "img": "images/items/triggers/1up_trigger.png",
+    "codes": "1up_trigger_menu"
+  },
+  {
+    "name": "Single Coins",
+    "type": "toggle",
+    "img": "images/items/collectables/yellow_coin.png",
+    "codes": "single_coins_menu"
+  },
+  {
+    "name": "Wing Cap Box",
+    "type": "toggle",
+    "img": "images/items/blocks/red_box.png",
+    "codes": "wing_cap_box_menu"
+  },
+  {
+    "name": "Yoshi",
+    "type": "toggle",
+    "img": "images/items/character/yoshi.png",
+    "codes": "yoshi_menu"
+  },
+  {
+    "name": "Cannon",
+    "type": "toggle",
+    "img": "images/items/objects/unlock_cannon.png",
+    "codes": "cannon_menu"
   }
 ]

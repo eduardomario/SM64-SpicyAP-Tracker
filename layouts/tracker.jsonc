@@ -44,6 +44,23 @@
                   "map2"
                 ]
               }
+            },
+            {
+              "title": "Castle",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Exterior",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "castle_exterior"
+                      ]
+                    }
+                  }
+                ]
+              }
             }
           ]
         }
@@ -93,6 +110,50 @@
                 "type": "map",
                 "maps": [
                   "map2"
+                ]
+              }
+            },
+            {
+              "title": "Castle",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Exterior",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "castle_exterior"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Floor 1",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "castle_f1"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Floor 2",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "castle_f2"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Basement",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "castle_basement"
+                      ]
+                    }
+                  }
                 ]
               }
             }

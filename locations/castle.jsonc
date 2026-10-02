@@ -1,0 +1,316 @@
+[
+  {
+    "name": "Castle - Exterior",
+    "chest_unopened_img": "images/items/collectables/yellow_coin.png",
+    "chest_opened_img": "images/items/collectables/collected_coin.png",
+    "children": [
+      {
+        "name": "Butterflies - Left",
+        "access_rules": [
+          "butterfly_menu"
+        ],
+        "sections": [
+          {
+            "name": "Butterfly - 1UP",
+            "chest_unopened_img": "images/items/triggers/butterfly.png",
+            "chest_opened_img": "images/items/triggers/collected_butterfly.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_exterior",
+            "x": 350,
+            "y": 375
+          }
+        ]
+      },
+      {
+        "name": "Butterflies - Right",
+        "access_rules": [
+          "butterfly_menu"
+        ],
+        "sections": [
+          {
+            "name": "Butterfly - 1UP",
+            "chest_unopened_img": "images/items/triggers/butterfly.png",
+            "chest_opened_img": "images/items/triggers/collected_butterfly.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_exterior",
+            "x": 1275,
+            "y": 450
+          }
+        ]
+      },
+      {
+        "name": "Bridge",
+        "sections": [
+          {
+            "name": "Single Coins",
+            "item_count": 1,
+            "access_rules": [
+              "single_coins_menu"
+            ]
+          },
+          {
+            "name": "1UP Trigger",
+            "chest_unopened_img": "images/items/triggers/1up_trigger.png",
+            "chest_opened_img": "images/items/triggers/collected_1up_trigger.png",
+            "item_count": 1,
+            "access_rules": [
+              "1up_trigger_menu"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_exterior",
+            "x": 750,
+            "y": 400
+          }
+        ]
+      },
+      {
+        "name": "Roof",
+        "access_rules": [
+          "cannon_menu"
+        ],
+        "sections": [
+          {
+            "name": "Yoshi",
+            "chest_unopened_img": "images/items/character/yoshi.png",
+            "chest_opened_img": "images/items/character/talked_yoshi.png",
+            "item_count": 1,
+            "access_rules": [
+              "yoshi_menu"
+            ]
+          },
+          {
+            "name": "1UP No. 1",
+            "chest_unopened_img": "images/items/collectables/1up.png",
+            "chest_opened_img": "images/items/collectables/collected_1up.png",
+            "item_count": 1,
+            "access_rules": [
+              "1up_menu"
+            ]
+          },
+          {
+            "name": "1UP No. 2",
+            "chest_unopened_img": "images/items/collectables/1up.png",
+            "chest_opened_img": "images/items/collectables/collected_1up.png",
+            "item_count": 1,
+            "access_rules": [
+              "1up_menu"
+            ]
+          },
+          {
+            "name": "1UP No. 3",
+            "chest_unopened_img": "images/items/collectables/1up.png",
+            "chest_opened_img": "images/items/collectables/collected_1up.png",
+            "item_count": 1,
+            "access_rules": [
+              "1up_menu"
+            ]
+          },
+          {
+            "name": "Wing Cap Box",
+            "chest_unopened_img": "images/items/blocks/red_box.png",
+            "chest_opened_img": "images/items/blocks/collected_box.png",
+            "item_count": 1,
+            "access_rules": [
+              "wing_cap_box_menu"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_exterior",
+            "x": 875,
+            "y": 200
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Castle - Floor 1",
+    "chest_unopened_img": "images/items/collectables/yellow_coin.png",
+    "chest_opened_img": "images/items/collectables/collected_coin.png",
+    "children": [
+      {
+        "name": "Stairs",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Single Coins",
+            "item_count": 1,
+            "access_rules": [
+              "single_coins_menu"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_f1",
+            "x": 575,
+            "y": 440
+          }
+        ]
+      },
+      {
+        "name": "Near aquarium",
+        "sections": [
+          {
+            "name": "1UP Trigger",
+            "chest_unopened_img": "images/items/triggers/1up_trigger.png",
+            "chest_opened_img": "images/items/triggers/collected_1up_trigger.png",
+            "item_count": 1,
+            "access_rules": [
+              "1up_trigger_menu"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_f1",
+            "x": 900,
+            "y": 425
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Castle - Floor 2",
+    "chest_unopened_img": "images/items/character/toad.png",
+    "chest_opened_img": "images/items/character/talked_toad.png",
+    "children": [
+      {
+        "name": "Stairs",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Toad",
+            "item_count": 1,
+            "access_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_f2",
+            "x": 650,
+            "y": 425
+          }
+        ]
+      },
+      {
+        "name": "Near clock",
+        "sections": [
+          {
+            "name": "Toad",
+            "item_count": 1,
+            "access_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_f2",
+            "x": 475,
+            "y": 275
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Castle - Basement",
+    "children": [
+      {
+        "name": "Hallway",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mips",
+            "clear_as_group": false,
+            "item_count": 2,
+            "chest_unopened_img": "images/items/character/mips.png",
+            "chest_opened_img": "images/items/character/grabbed_mips.png",
+            "access_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_basement",
+            "x": 465,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Near HMC",
+        "sections": [
+          {
+            "name": "Toad",
+            "chest_unopened_img": "images/items/character/toad.png",
+            "chest_opened_img": "images/items/character/talked_toad.png",
+            "item_count": 1,
+            "access_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_basement",
+            "x": 750,
+            "y": 225
+          }
+        ]
+      },
+      {
+        "name": "Near exit",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Drain water",
+            "chest_unopened_img": "images/items/objects/metallic_door.png",
+            "chest_opened_img": "images/items/objects/opened_metallic_door.png",
+            "item_count": 1,
+            "access_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_basement",
+            "x": 1375,
+            "y": 525
+          }
+        ]
+      },
+      {
+        "name": "Near exit",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "1UP Trigger",
+            "chest_unopened_img": "images/items/triggers/1up_trigger.png",
+            "chest_opened_img": "images/items/triggers/collected_1up_trigger.png",
+            "item_count": 1,
+            "access_rules": [
+              "1up_trigger_menu"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_basement",
+            "x": 800,
+            "y": 450
+          }
+        ]
+      }
+    ]
+  }
+]
