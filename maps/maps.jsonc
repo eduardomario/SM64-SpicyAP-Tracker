@@ -22,5 +22,11 @@
     "location_size": 48,
     "location_border_thickness": 4,
     "img": "images/maps/castle_f2.png"
+  },
+  {
+    "name": "bob",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/bob.png"
   }
 ]
