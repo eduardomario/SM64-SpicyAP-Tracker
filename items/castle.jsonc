@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Butterflies",
+    "type": "toggle",
+    "img": "images/items/triggers/butterfly.png",
+    "codes": "castle_menu_butterfly"
+  },
+  {
+    "name": "1UP",
+    "type": "toggle",
+    "img": "images/items/collectables/1up.png",
+    "codes": "castle_menu_1up"
+  },
+  {
+    "name": "1UP Trigger",
+    "type": "toggle",
+    "img": "images/items/triggers/1up_trigger.png",
+    "codes": "castle_menu_1up_trigger"
+  },
+  {
+    "name": "Single Coins",
+    "type": "toggle",
+    "img": "images/items/collectables/yellow_coin.png",
+    "codes": "castle_menu_single_coins"
+  },
+  {
+    "name": "Wing Cap Box",
+    "type": "toggle",
+    "img": "images/items/blocks/red_box.png",
+    "codes": "castle_menu_wing_box"
+  },
+  {
+    "name": "Yoshi",
+    "type": "toggle",
+    "img": "images/items/character/yoshi.png",
+    "codes": "castle_menu_yoshi"
+  },
+  {
+    "name": "Cannon",
+    "type": "toggle",
+    "img": "images/items/objects/unlock_cannon.png",
+    "codes": "castle_menu_cannon"
+  },
+  {
+    "name": "Toad",
+    "type": "toggle",
+    "img": "images/items/character/toad.png",
+    "codes": "castle_menu_toad"
+  },
+  {
+    "name": "Mips",
+    "type": "toggle",
+    "img": "images/items/character/mips.png",
+    "codes": "castle_menu_mips"
+  },
+  {
+    "name": "Basement key",
+    "type": "toggle",
+    "img": "images/items/objects/key.png",
+    "codes": "castle_menu_basement_key"
+  },
+  {
+    "name": "Second floor key",
+    "type": "toggle",
+    "img": "images/items/objects/key.png",
+    "codes": "castle_menu_second_floor_key"
+  },
+  {
+    "name": "Ledge grab",
+    "type": "toggle",
+    "img": "images/items/mario/ledge_grab.jpg",
+    "codes": "castle_menu_mario_ledge_grab"
+  },
+  {
+    "name": "Triple jump",
+    "type": "toggle",
+    "img": "images/items/mario/triple_jump.jpg",
+    "codes": "castle_menu_mario_triple_jump"
+  }
+]

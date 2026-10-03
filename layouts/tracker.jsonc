@@ -28,24 +28,6 @@
           "type": "tabbed",
           "tabs": [
             {
-              "title": "Map 1",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map1"
-                ]
-              }
-            },
-            {
-              "title": "Map 2",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map2"
-                ]
-              }
-            },
-            {
               "title": "Castle",
               "content": {
                 "type": "tabbed",
@@ -56,6 +38,33 @@
                       "type": "map",
                       "maps": [
                         "castle_exterior"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Floor 1",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "castle_f1"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Floor 2",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "castle_f2"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Basement",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "castle_basement"
                       ]
                     }
                   }
@@ -95,24 +104,6 @@
         {
           "type": "tabbed",
           "tabs": [
-            {
-              "title": "Map 1",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map1"
-                ]
-              }
-            },
-            {
-              "title": "Map 2",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map2"
-                ]
-              }
-            },
             {
               "title": "Castle",
               "content": {
@@ -154,6 +145,16 @@
                       ]
                     }
                   }
+                ]
+              }
+            },
+            {
+              "title": "BoB",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "castle_exterior",
+                  "castle_basement"
                 ]
               }
             }

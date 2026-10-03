@@ -25,10 +25,10 @@ ScriptHost:LoadScript("scripts/custom_items/progressiveTogglePlusWrapper.lua")
 
 -- Items
 Tracker:AddItems("items/items.jsonc")
+Tracker:AddItems("items/castle.jsonc")
 -- Maps
 Tracker:AddMaps("maps/maps.jsonc")
 -- Location
-Tracker:AddLocations("locations/locations.jsonc")
 Tracker:AddLocations("locations/castle.jsonc")
 
 -- Layout

@@ -5,13 +5,13 @@
     "chest_opened_img": "images/items/collectables/collected_coin.png",
     "children": [
       {
-        "name": "Butterflies - Left",
+        "name": "Left side",
         "access_rules": [
-          "butterfly_menu"
+          "castle_menu_butterfly"
         ],
         "sections": [
           {
-            "name": "Butterfly - 1UP",
+            "name": "Butterfly",
             "chest_unopened_img": "images/items/triggers/butterfly.png",
             "chest_opened_img": "images/items/triggers/collected_butterfly.png",
             "item_count": 1
@@ -26,13 +26,13 @@
         ]
       },
       {
-        "name": "Butterflies - Right",
+        "name": "Right side",
         "access_rules": [
-          "butterfly_menu"
+          "castle_menu_butterfly"
         ],
         "sections": [
           {
-            "name": "Butterfly - 1UP",
+            "name": "Butterfly",
             "chest_unopened_img": "images/items/triggers/butterfly.png",
             "chest_opened_img": "images/items/triggers/collected_butterfly.png",
             "item_count": 1
@@ -53,7 +53,7 @@
             "name": "Single Coins",
             "item_count": 1,
             "access_rules": [
-              "single_coins_menu"
+              "castle_menu_single_coins"
             ]
           },
           {
@@ -62,7 +62,7 @@
             "chest_opened_img": "images/items/triggers/collected_1up_trigger.png",
             "item_count": 1,
             "access_rules": [
-              "1up_trigger_menu"
+              "castle_menu_1up_trigger"
             ]
           }
         ],
@@ -76,8 +76,11 @@
       },
       {
         "name": "Roof",
+        "chest_unopened_img": "images/items/collectables/1up.png",
+        "chest_opened_img": "images/items/collectables/collected_1up.png",
         "access_rules": [
-          "cannon_menu"
+          "castle_menu_cannon",
+          "castle_menu_mario_ledge_grab, castle_menu_mario_triple_jump, ^$StrictAccess|castle_menu_cannon"
         ],
         "sections": [
           {
@@ -86,34 +89,28 @@
             "chest_opened_img": "images/items/character/talked_yoshi.png",
             "item_count": 1,
             "access_rules": [
-              "yoshi_menu"
+              "castle_menu_yoshi"
             ]
           },
           {
             "name": "1UP No. 1",
-            "chest_unopened_img": "images/items/collectables/1up.png",
-            "chest_opened_img": "images/items/collectables/collected_1up.png",
             "item_count": 1,
             "access_rules": [
-              "1up_menu"
+              "castle_menu_1up"
             ]
           },
           {
             "name": "1UP No. 2",
-            "chest_unopened_img": "images/items/collectables/1up.png",
-            "chest_opened_img": "images/items/collectables/collected_1up.png",
             "item_count": 1,
             "access_rules": [
-              "1up_menu"
+              "castle_menu_1up"
             ]
           },
           {
             "name": "1UP No. 3",
-            "chest_unopened_img": "images/items/collectables/1up.png",
-            "chest_opened_img": "images/items/collectables/collected_1up.png",
             "item_count": 1,
             "access_rules": [
-              "1up_menu"
+              "castle_menu_1up"
             ]
           },
           {
@@ -122,7 +119,7 @@
             "chest_opened_img": "images/items/blocks/collected_box.png",
             "item_count": 1,
             "access_rules": [
-              "wing_cap_box_menu"
+              "castle_menu_wing_box"
             ]
           }
         ],
@@ -137,7 +134,7 @@
     ]
   },
   {
-    "name": "Castle - Floor 1",
+    "name": "Castle - First Floor",
     "chest_unopened_img": "images/items/collectables/yellow_coin.png",
     "chest_opened_img": "images/items/collectables/collected_coin.png",
     "children": [
@@ -149,7 +146,7 @@
             "name": "Single Coins",
             "item_count": 1,
             "access_rules": [
-              "single_coins_menu"
+              "castle_menu_single_coins"
             ]
           }
         ],
@@ -170,7 +167,7 @@
             "chest_opened_img": "images/items/triggers/collected_1up_trigger.png",
             "item_count": 1,
             "access_rules": [
-              "1up_trigger_menu"
+              "castle_menu_1up_trigger"
             ]
           }
         ],
@@ -185,9 +182,12 @@
     ]
   },
   {
-    "name": "Castle - Floor 2",
+    "name": "Castle - Second Floor",
     "chest_unopened_img": "images/items/character/toad.png",
     "chest_opened_img": "images/items/character/talked_toad.png",
+    "access_rules": [
+      "castle_menu_second_floor_key"
+    ],
     "children": [
       {
         "name": "Stairs",
@@ -196,7 +196,9 @@
           {
             "name": "Toad",
             "item_count": 1,
-            "access_rules": []
+            "access_rules": [
+              "castle_menu_toad"
+            ]
           }
         ],
         "map_locations": [
@@ -213,7 +215,9 @@
           {
             "name": "Toad",
             "item_count": 1,
-            "access_rules": []
+            "access_rules": [
+              "castle_menu_toad"
+            ]
           }
         ],
         "map_locations": [
@@ -228,6 +232,9 @@
   },
   {
     "name": "Castle - Basement",
+    "access_rules": [
+      "castle_menu_basement_key"
+    ],
     "children": [
       {
         "name": "Hallway",
@@ -239,7 +246,9 @@
             "item_count": 2,
             "chest_unopened_img": "images/items/character/mips.png",
             "chest_opened_img": "images/items/character/grabbed_mips.png",
-            "access_rules": []
+            "access_rules": [
+              "castle_menu_mips"
+            ]
           }
         ],
         "map_locations": [
@@ -258,7 +267,9 @@
             "chest_unopened_img": "images/items/character/toad.png",
             "chest_opened_img": "images/items/character/talked_toad.png",
             "item_count": 1,
-            "access_rules": []
+            "access_rules": [
+              "castle_menu_toad"
+            ]
           }
         ],
         "map_locations": [

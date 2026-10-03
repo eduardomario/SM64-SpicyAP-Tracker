@@ -13,3 +13,10 @@ function has_more_then_n_consumable(n)
     end
     return 0 -- 0 => no access
 end
+
+function StrictAccess(code)
+    if Tracker:FindObjectForCode(code).CurrentStage == 0 then
+        return AccessibilityLevel.SequenceBreak;
+    end
+    return AccessibilityLevel.None;
+end
