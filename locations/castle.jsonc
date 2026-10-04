@@ -15,6 +15,15 @@
             "chest_unopened_img": "images/items/triggers/butterfly.png",
             "chest_opened_img": "images/items/triggers/collected_butterfly.png",
             "item_count": 1
+          },
+          {
+            "name": "Tree",
+            "chest_unopened_img": "images/items/triggers/1up_trigger.png",
+            "chest_opened_img": "images/items/triggers/collected_1up_trigger.png",
+            "item_count": 1,
+            "access_rules": [
+              "castle_menu_1up_trigger, castle_menu_mario_climb"
+            ]
           }
         ],
         "map_locations": [
@@ -62,7 +71,8 @@
             "chest_opened_img": "images/items/triggers/collected_1up_trigger.png",
             "item_count": 1,
             "access_rules": [
-              "castle_menu_1up_trigger"
+              "castle_menu_1up_trigger, castle_menu_mario_wall_kick, castle_menu_mario_side_flip",
+              "castle_menu_1up_trigger, castle_menu_mario_wall_kick, castle_menu_mario_triple_jump"
             ]
           }
         ],
@@ -93,22 +103,9 @@
             ]
           },
           {
-            "name": "1UP No. 1",
-            "item_count": 1,
-            "access_rules": [
-              "castle_menu_1up"
-            ]
-          },
-          {
-            "name": "1UP No. 2",
-            "item_count": 1,
-            "access_rules": [
-              "castle_menu_1up"
-            ]
-          },
-          {
-            "name": "1UP No. 3",
-            "item_count": 1,
+            "name": "1UP",
+            "clear_as_group": false,
+            "item_count": 3,
             "access_rules": [
               "castle_menu_1up"
             ]
@@ -295,7 +292,7 @@
         "map_locations": [
           {
             "map": "castle_basement",
-            "x": 1375,
+            "x": 1275,
             "y": 525
           }
         ]
@@ -310,7 +307,7 @@
             "chest_opened_img": "images/items/triggers/collected_1up_trigger.png",
             "item_count": 1,
             "access_rules": [
-              "1up_trigger_menu"
+              "castle_menu_1up_trigger"
             ]
           }
         ],

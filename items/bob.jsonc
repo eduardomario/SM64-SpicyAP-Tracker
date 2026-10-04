@@ -1,0 +1,134 @@
+[
+  {
+    "name": "1UP",
+    "type": "toggle",
+    "img": "images/items/collectables/1up.png",
+    "codes": "bob_menu_1up"
+  },
+  {
+    "name": "1UP Trigger",
+    "type": "toggle",
+    "img": "images/items/triggers/1up_trigger.png",
+    "codes": "bob_menu_1up_trigger"
+  },
+  {
+    "name": "Single Coins",
+    "type": "toggle",
+    "img": "images/items/collectables/yellow_coin.png",
+    "codes": "bob_menu_single_coins"
+  },
+  {
+    "name": "Horizontal Coins Lines",
+    "type": "toggle",
+    "img": "images/items/collectables/yellow_coin.png",
+    "codes": "bob_menu_h_line_coins"
+  },
+  {
+    "name": "Horizontal Coins Rings",
+    "type": "toggle",
+    "img": "images/items/collectables/yellow_coin.png",
+    "codes": "bob_menu_h_ring_coins"
+  },
+  {
+    "name": "Vertical Coins Rings",
+    "type": "toggle",
+    "img": "images/items/collectables/yellow_coin.png",
+    "codes": "bob_menu_v_ring_coins"
+  },
+  {
+    "name": "Red Coins",
+    "type": "toggle",
+    "img": "images/items/collectables/red_coin.png",
+    "codes": "bob_menu_red_coins"
+  },
+  {
+    "name": "Wing Cap Box",
+    "type": "toggle",
+    "img": "images/items/blocks/red_box.png",
+    "codes": "bob_menu_wing_box"
+  },
+  {
+    "name": "Star Box",
+    "type": "toggle",
+    "img": "images/items/blocks/yellow_box.png",
+    "codes": "bob_menu_star_box"
+  },
+  {
+    "name": "Crate Box",
+    "type": "toggle",
+    "img": "images/items/blocks/crate_box.png",
+    "codes": "bob_menu_crate_box"
+  },
+  {
+    "name": "Throw Box",
+    "type": "toggle",
+    "img": "images/items/blocks/crate_box.png",
+    "codes": "bob_menu_throw_box"
+  },
+  {
+    "name": "Cannon",
+    "type": "toggle",
+    "img": "images/items/objects/unlock_cannon.png",
+    "codes": "bob_menu_cannon"
+  },
+  {
+    "name": "Triple jump",
+    "type": "toggle",
+    "img": "images/items/mario/triple_jump.jpg",
+    "codes": "bob_menu_mario_triple_jump"
+  },
+  {
+    "name": "Long jump",
+    "type": "toggle",
+    "img": "images/items/mario/long_jump.jpg",
+    "codes": "bob_menu_mario_long_jump"
+  },
+  {
+    "name": "Backflip",
+    "type": "toggle",
+    "img": "images/items/mario/backflip.jpg",
+    "codes": "bob_menu_mario_backflip"
+  },
+  {
+    "name": "Side flip",
+    "type": "toggle",
+    "img": "images/items/mario/side_flip.png",
+    "codes": "bob_menu_mario_side_flip"
+  },
+  {
+    "name": "Wall kick",
+    "type": "toggle",
+    "img": "images/items/mario/wall_kick.png",
+    "codes": "bob_menu_mario_wall_kick"
+  },
+  {
+    "name": "Dive",
+    "type": "toggle",
+    "img": "images/items/mario/dive.png",
+    "codes": "bob_menu_mario_dive"
+  },
+  {
+    "name": "Ground pound",
+    "type": "toggle",
+    "img": "images/items/mario/ground_pound.jpg",
+    "codes": "bob_menu_mario_ground_pound"
+  },
+  {
+    "name": "Kick",
+    "type": "toggle",
+    "img": "images/items/mario/kick.png",
+    "codes": "bob_menu_mario_kick"
+  },
+  {
+    "name": "Climb",
+    "type": "toggle",
+    "img": "images/items/mario/climb.jpg",
+    "codes": "bob_menu_mario_climb"
+  },
+  {
+    "name": "Ledge grab",
+    "type": "toggle",
+    "img": "images/items/mario/ledge_grab.jpg",
+    "codes": "bob_menu_mario_ledge_grab"
+  }
+]

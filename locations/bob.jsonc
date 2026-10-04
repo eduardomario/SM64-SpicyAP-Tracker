@@ -1,0 +1,258 @@
+[
+  {
+    "name": "Bom-omb Battlefield",
+    "chest_unopened_img": "images/items/collectables/yellow_coin.png",
+    "chest_opened_img": "images/items/collectables/collected_coin.png",
+    "children": [
+      {
+        "name": "Near spawn",
+        "chest_unopened_img": "images/items/blocks/crate_box.png",
+        "chest_opened_img": "images/items/blocks/collected_crate_box.png",
+        "sections": [
+          {
+            "name": "Coin box",
+            "item_count": 1,
+            "access_rules": [
+              "bob_menu_crate_box"
+            ]
+          },
+          {
+            "name": "Throw box",
+            "item_count": 1,
+            "access_rules": [
+              "bob_menu_throw_box"
+            ]
+          },
+          {
+            "name": "Tree",
+            "chest_unopened_img": "images/items/triggers/1up_trigger.png",
+            "chest_opened_img": "images/items/triggers/collected_1up_trigger.png",
+            "item_count": 1,
+            "access_rules": [
+              "bob_menu_1up_trigger"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bob",
+            "x": 950,
+            "y": 575
+          }
+        ]
+      },
+      {
+        "name": "Bridge",
+        "sections": [
+          {
+            "name": "H Line Coins",
+            "item_count": 1,
+            "access_rules": [
+              "bob_menu_h_line_coins"
+            ]
+          },
+          {
+            "name": "Wing Cap Box",
+            "chest_unopened_img": "images/items/blocks/red_box.png",
+            "chest_opened_img": "images/items/blocks/collected_box.png",
+            "item_count": 1,
+            "access_rules": [
+              "bob_menu_wing_box"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bob",
+            "x": 1050,
+            "y": 475
+          }
+        ]
+      },
+      {
+        "name": "Grass",
+        "sections": [
+          {
+            "name": "Red Coin",
+            "chest_unopened_img": "images/items/collectables/red_coin.png",
+            "chest_opened_img": "images/items/collectables/collected_coin.png",
+            "item_count": 1,
+            "access_rules": [
+              "bob_menu_red_coins"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bob",
+            "x": 1015,
+            "y": 250
+          }
+        ]
+      },
+      {
+        "name": "Floating Island",
+        "access_rules": [
+          "bob_menu_cannon",
+          "bob_menu_mario_long_jump, ^$StrictAccess|bob_menu_cannon",
+          "bob_menu_mario_triple_jump, bob_menu_wing_box, ^$StrictAccess|bob_menu_cannon"
+        ],
+        "sections": [
+          {
+            "name": "Star box",
+            "chest_unopened_img": "images/items/blocks/yellow_box.png",
+            "chest_opened_img": "images/items/blocks/collected_box.png",
+            "item_count": 1,
+            "access_rules": [
+              "bob_menu_star_box"
+            ]
+          },
+          {
+            "name": "Wing Cap Box",
+            "chest_unopened_img": "images/items/blocks/red_box.png",
+            "chest_opened_img": "images/items/blocks/collected_box.png",
+            "item_count": 1,
+            "access_rules": [
+              "bob_menu_wing_box"
+            ]
+          },
+          {
+            "name": "Red Coin",
+            "chest_unopened_img": "images/items/collectables/red_coin.png",
+            "chest_opened_img": "images/items/collectables/collected_coin.png",
+            "item_count": 1,
+            "access_rules": [
+              "bob_menu_red_coins, bob_menu_cannon",
+              "bob_menu_red_coins, bob_menu_mario_climb",
+              "bob_menu_red_coins, bob_menu_mario_triple_jump",
+              "bob_menu_red_coins, bob_menu_mario_backflip",
+              "bob_menu_red_coins, bob_menu_mario_side_flip"
+            ]
+          },
+          {
+            "name": "Single Coins",
+            "clear_as_group": false,
+            "item_count": 5,
+            "access_rules": [
+              "bob_menu_cannon, bob_menu_single_coins, bob_menu_wing_box",
+              "bob_menu_cannon, bob_menu_single_coins, ^$StrictAccess|bob_menu_wing_box"
+            ]
+          },
+          {
+            "name": "V Ring Coins",
+            "clear_as_group": false,
+            "item_count": 5,
+            "access_rules": [
+              "bob_menu_cannon, bob_menu_v_ring_coins, bob_menu_wing_box"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bob",
+            "x": 925,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Star spawn",
+        "sections": [
+          {
+            "name": "Star box",
+            "chest_unopened_img": "images/items/blocks/yellow_box.png",
+            "chest_opened_img": "images/items/blocks/collected_box.png",
+            "item_count": 1,
+            "access_rules": [
+              "bob_menu_star_box"
+            ]
+          },
+          {
+            "name": "Red Coin",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/items/collectables/red_coin.png",
+            "chest_opened_img": "images/items/collectables/collected_coin.png",
+            "item_count": 2,
+            "access_rules": [
+              "bob_menu_red_coins"
+            ]
+          },
+          {
+            "name": "Wing Cap Box",
+            "chest_unopened_img": "images/items/blocks/red_box.png",
+            "chest_opened_img": "images/items/blocks/collected_box.png",
+            "item_count": 1,
+            "access_rules": [
+              "bob_menu_wing_box"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bob",
+            "x": 575,
+            "y": 450
+          }
+        ]
+      },
+      {
+        "name": "Near teleport",
+        "sections": [
+          {
+            "name": "H Ring Coins",
+            "item_count": 1,
+            "access_rules": [
+              "bob_menu_h_ring_coins"
+            ]
+          },
+          {
+            "name": "1UP Trigger",
+            "chest_unopened_img": "images/items/triggers/1up_trigger.png",
+            "chest_opened_img": "images/items/triggers/collected_1up_trigger.png",
+            "item_count": 1,
+            "access_rules": [
+              "bob_menu_1up_trigger"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bob",
+            "x": 225,
+            "y": 350
+          }
+        ]
+      },
+      {
+        "name": "Gate",
+        "sections": [
+          {
+            "name": "1UP",
+            "chest_unopened_img": "images/items/collectables/1up.png",
+            "chest_opened_img": "images/items/collectables/collected_1up.png",
+            "item_count": 1,
+            "access_rules": [
+              "bob_menu_1up"
+            ]
+          },
+          {
+            "name": "Red Coin",
+            "chest_unopened_img": "images/items/collectables/red_coin.png",
+            "chest_opened_img": "images/items/collectables/collected_coin.png",
+            "item_count": 1,
+            "access_rules": [
+              "bob_menu_red_coins"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bob",
+            "x": 350,
+            "y": 300
+          }
+        ]
+      }
+    ]
+  }
+]

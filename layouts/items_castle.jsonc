@@ -1,0 +1,50 @@
+{
+  "castle_item_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "5, 5",
+            "h_alignment": "left",
+            "rows": [
+              [
+                "castle_menu_basement_key",
+                "castle_menu_second_floor_key"
+              ],
+              [
+                "castle_menu_butterfly",
+                "castle_menu_1up",
+                "castle_menu_1up_trigger",
+                "castle_menu_single_coins",
+                "castle_menu_wing_box",
+                "castle_menu_cannon",
+                "castle_menu_toad",
+                "castle_menu_mips",
+                "castle_menu_yoshi"
+              ],
+              [
+                "castle_menu_mario_triple_jump",
+                "castle_menu_mario_long_jump",
+                "castle_menu_mario_backflip",
+                "castle_menu_mario_side_flip",
+                "castle_menu_mario_wall_kick",
+                "castle_menu_mario_dive",
+                "castle_menu_mario_ground_pound",
+                "castle_menu_mario_kick",
+                "castle_menu_mario_climb",
+                "castle_menu_mario_ledge_grab"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

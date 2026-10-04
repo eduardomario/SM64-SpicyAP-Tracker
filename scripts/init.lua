@@ -26,13 +26,16 @@ ScriptHost:LoadScript("scripts/custom_items/progressiveTogglePlusWrapper.lua")
 -- Items
 Tracker:AddItems("items/items.jsonc")
 Tracker:AddItems("items/castle.jsonc")
+Tracker:AddItems("items/bob.jsonc")
 -- Maps
 Tracker:AddMaps("maps/maps.jsonc")
 -- Location
 Tracker:AddLocations("locations/castle.jsonc")
+Tracker:AddLocations("locations/bob.jsonc")
 
 -- Layout
-Tracker:AddLayouts("layouts/items.jsonc")
+Tracker:AddLayouts("layouts/items_castle.jsonc")
+Tracker:AddLayouts("layouts/items_bob.jsonc")
 Tracker:AddLayouts("layouts/tracker.jsonc")
 Tracker:AddLayouts("layouts/broadcast.jsonc")
 

@@ -17,59 +17,29 @@
               "content": [
                 {
                   "type": "dock",
-                  "dock": "left",
-                  "v_alignment": "stretch",
+                  "dock": "bottom",
                   "content": [
                     {
                       "type": "group",
                       "header": "Items",
-                      "dock": "top",
+                      "dock": "left",
+                      "margin": "0,0,3,0",
                       "content": {
                         "type": "layout",
-                        "key": "shared_item_grid"
+                        "h_alignment": "center",
+                        "v_alignment": "center",
+                        "key": "castle_item_grid"
                       }
                     }
                   ]
                 },
                 {
-                  "type": "tabbed",
-                  "tabs": [
-                    {
-                      "title": "Exterior",
-                      "content": {
-                        "type": "map",
-                        "maps": [
-                          "castle_exterior"
-                        ]
-                      }
-                    },
-                    {
-                      "title": "Floor 1",
-                      "content": {
-                        "type": "map",
-                        "maps": [
-                          "castle_f1"
-                        ]
-                      }
-                    },
-                    {
-                      "title": "Floor 2",
-                      "content": {
-                        "type": "map",
-                        "maps": [
-                          "castle_f2"
-                        ]
-                      }
-                    },
-                    {
-                      "title": "Basement",
-                      "content": {
-                        "type": "map",
-                        "maps": [
-                          "castle_basement"
-                        ]
-                      }
-                    }
+                  "type": "map",
+                  "maps": [
+                    "castle_exterior",
+                    "castle_f1",
+                    "castle_f2",
+                    "castle_basement"
                   ]
                 }
               ]
@@ -78,25 +48,6 @@
         },
         {
           "title": "BoB",
-          "type": "container",
-          "content": {
-            "type": "map",
-            "maps": [
-              "bob"
-            ]
-          }
-        }
-      ]
-    }
-  },
-  "tracker_horizontal": {
-    "type": "container",
-    "background": "#000000",
-    "content": {
-      "type": "tabbed",
-      "tabs": [
-        {
-          "title": "Castle",
           "type": "container",
           "content": [
             {
@@ -116,65 +67,20 @@
                         "type": "layout",
                         "h_alignment": "center",
                         "v_alignment": "center",
-                        "key": "shared_item_grid"
+                        "key": "bob_item_grid"
                       }
                     }
                   ]
                 },
                 {
-                  "type": "tabbed",
-                  "tabs": [
-                    {
-                      "title": "Exterior",
-                      "content": {
-                        "type": "map",
-                        "maps": [
-                          "castle_exterior"
-                        ]
-                      }
-                    },
-                    {
-                      "title": "Floor 1",
-                      "content": {
-                        "type": "map",
-                        "maps": [
-                          "castle_f1"
-                        ]
-                      }
-                    },
-                    {
-                      "title": "Floor 2",
-                      "content": {
-                        "type": "map",
-                        "maps": [
-                          "castle_f2"
-                        ]
-                      }
-                    },
-                    {
-                      "title": "Basement",
-                      "content": {
-                        "type": "map",
-                        "maps": [
-                          "castle_basement"
-                        ]
-                      }
-                    }
+                  "type": "map",
+                  "maps": [
+                    "bob"
                   ]
                 }
               ]
             }
           ]
-        },
-        {
-          "title": "BoB",
-          "type": "container",
-          "content": {
-            "type": "map",
-            "maps": [
-              "bob"
-            ]
-          }
         }
       ]
     }

@@ -66,15 +66,63 @@
     "codes": "castle_menu_second_floor_key"
   },
   {
-    "name": "Ledge grab",
-    "type": "toggle",
-    "img": "images/items/mario/ledge_grab.jpg",
-    "codes": "castle_menu_mario_ledge_grab"
-  },
-  {
     "name": "Triple jump",
     "type": "toggle",
     "img": "images/items/mario/triple_jump.jpg",
     "codes": "castle_menu_mario_triple_jump"
+  },
+  {
+    "name": "Long jump",
+    "type": "toggle",
+    "img": "images/items/mario/long_jump.jpg",
+    "codes": "castle_menu_mario_long_jump"
+  },
+  {
+    "name": "Backflip",
+    "type": "toggle",
+    "img": "images/items/mario/backflip.jpg",
+    "codes": "castle_menu_mario_backflip"
+  },
+  {
+    "name": "Side flip",
+    "type": "toggle",
+    "img": "images/items/mario/side_flip.png",
+    "codes": "castle_menu_mario_side_flip"
+  },
+  {
+    "name": "Wall kick",
+    "type": "toggle",
+    "img": "images/items/mario/wall_kick.png",
+    "codes": "castle_menu_mario_wall_kick"
+  },
+  {
+    "name": "Dive",
+    "type": "toggle",
+    "img": "images/items/mario/dive.png",
+    "codes": "castle_menu_mario_dive"
+  },
+  {
+    "name": "Ground pound",
+    "type": "toggle",
+    "img": "images/items/mario/ground_pound.jpg",
+    "codes": "castle_menu_mario_ground_pound"
+  },
+  {
+    "name": "Kick",
+    "type": "toggle",
+    "img": "images/items/mario/kick.png",
+    "codes": "castle_menu_mario_kick"
+  },
+  {
+    "name": "Climb",
+    "type": "toggle",
+    "img": "images/items/mario/climb.jpg",
+    "codes": "castle_menu_mario_climb"
+  },
+  {
+    "name": "Ledge grab",
+    "type": "toggle",
+    "img": "images/items/mario/ledge_grab.jpg",
+    "codes": "castle_menu_mario_ledge_grab"
   }
 ]

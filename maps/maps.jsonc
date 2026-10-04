@@ -1,31 +1,31 @@
 [
   {
     "name": "castle_exterior",
-    "location_size": 48,
+    "location_size": 72,
     "location_border_thickness": 4,
     "img": "images/maps/castle_exterior.png"
   },
   {
     "name": "castle_basement",
-    "location_size": 48,
+    "location_size": 72,
     "location_border_thickness": 4,
     "img": "images/maps/castle_basement.png"
   },
   {
     "name": "castle_f1",
-    "location_size": 48,
+    "location_size": 72,
     "location_border_thickness": 4,
     "img": "images/maps/castle_f1.png"
   },
   {
     "name": "castle_f2",
-    "location_size": 48,
+    "location_size": 72,
     "location_border_thickness": 4,
     "img": "images/maps/castle_f2.png"
   },
   {
     "name": "bob",
-    "location_size": 48,
+    "location_size": 36,
     "location_border_thickness": 4,
     "img": "images/maps/bob.png"
   }
