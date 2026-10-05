@@ -13,14 +13,14 @@
             "name": "Coin box",
             "item_count": 1,
             "access_rules": [
-              "bob_menu_crate_box"
+              "bob_menu_crate_boxes"
             ]
           },
           {
             "name": "Throw box",
             "item_count": 1,
             "access_rules": [
-              "bob_menu_throw_box"
+              "bob_menu_throw_boxes"
             ]
           },
           {
@@ -48,7 +48,7 @@
             "name": "H Line Coins",
             "item_count": 1,
             "access_rules": [
-              "bob_menu_h_line_coins"
+              "bob_menu_h_coin_lines"
             ]
           },
           {
@@ -93,9 +93,9 @@
       {
         "name": "Floating Island",
         "access_rules": [
-          "bob_menu_cannon",
-          "bob_menu_mario_long_jump, ^$StrictAccess|bob_menu_cannon",
-          "bob_menu_mario_triple_jump, bob_menu_wing_box, ^$StrictAccess|bob_menu_cannon"
+          "bob_menu_cannons",
+          "bob_menu_mario_long_jump, ^$StrictAccess|bob_menu_cannons",
+          "bob_menu_mario_triple_jump, bob_menu_wing_box, ^$StrictAccess|bob_menu_cannons"
         ],
         "sections": [
           {
@@ -122,7 +122,7 @@
             "chest_opened_img": "images/items/collectables/collected_coin.png",
             "item_count": 1,
             "access_rules": [
-              "bob_menu_red_coins, bob_menu_cannon",
+              "bob_menu_red_coins, bob_menu_cannons",
               "bob_menu_red_coins, bob_menu_mario_climb",
               "bob_menu_red_coins, bob_menu_mario_triple_jump",
               "bob_menu_red_coins, bob_menu_mario_backflip",
@@ -134,8 +134,8 @@
             "clear_as_group": false,
             "item_count": 5,
             "access_rules": [
-              "bob_menu_cannon, bob_menu_single_coins, bob_menu_wing_box",
-              "bob_menu_cannon, bob_menu_single_coins, ^$StrictAccess|bob_menu_wing_box"
+              "bob_menu_cannons, bob_menu_single_coins, bob_menu_wing_box",
+              "bob_menu_cannons, bob_menu_single_coins, ^$StrictAccess|bob_menu_wing_box"
             ]
           },
           {
@@ -143,7 +143,7 @@
             "clear_as_group": false,
             "item_count": 5,
             "access_rules": [
-              "bob_menu_cannon, bob_menu_v_ring_coins, bob_menu_wing_box"
+              "bob_menu_cannons, bob_menu_v_coin_rings, bob_menu_wing_box"
             ]
           }
         ],
@@ -202,7 +202,7 @@
             "name": "H Ring Coins",
             "item_count": 1,
             "access_rules": [
-              "bob_menu_h_ring_coins"
+              "bob_menu_h_coin_rings"
             ]
           },
           {

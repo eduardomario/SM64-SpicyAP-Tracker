@@ -18,17 +18,17 @@
                 "bob_menu_1up",
                 "bob_menu_1up_trigger",
                 "bob_menu_single_coins",
-                "bob_menu_h_line_coins",
-                "bob_menu_h_ring_coins",
-                "bob_menu_v_ring_coins",
+                "bob_menu_h_coin_lines",
+                "bob_menu_h_coin_rings",
+                "bob_menu_v_coin_rings",
                 "bob_menu_red_coins",
                 "bob_menu_wing_box",
                 "bob_menu_star_box",
-                "bob_menu_crate_box",
-                "bob_menu_throw_box"
+                "bob_menu_crate_boxes",
+                "bob_menu_throw_boxes"
               ],
               [
-                "bob_menu_cannon"
+                "bob_menu_cannons"
               ],
               [
                 "bob_menu_mario_triple_jump",

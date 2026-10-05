@@ -21,19 +21,19 @@
     "name": "Horizontal Coins Lines",
     "type": "toggle",
     "img": "images/items/collectables/yellow_coin.png",
-    "codes": "bob_menu_h_line_coins"
+    "codes": "bob_menu_h_coin_lines"
   },
   {
     "name": "Horizontal Coins Rings",
     "type": "toggle",
     "img": "images/items/collectables/yellow_coin.png",
-    "codes": "bob_menu_h_ring_coins"
+    "codes": "bob_menu_h_coin_rings"
   },
   {
     "name": "Vertical Coins Rings",
     "type": "toggle",
     "img": "images/items/collectables/yellow_coin.png",
-    "codes": "bob_menu_v_ring_coins"
+    "codes": "bob_menu_v_coin_rings"
   },
   {
     "name": "Red Coins",
@@ -57,19 +57,19 @@
     "name": "Crate Box",
     "type": "toggle",
     "img": "images/items/blocks/crate_box.png",
-    "codes": "bob_menu_crate_box"
+    "codes": "bob_menu_crate_boxes"
   },
   {
     "name": "Throw Box",
     "type": "toggle",
     "img": "images/items/blocks/crate_box.png",
-    "codes": "bob_menu_throw_box"
+    "codes": "bob_menu_throw_boxes"
   },
   {
     "name": "Cannon",
     "type": "toggle",
     "img": "images/items/objects/unlock_cannon.png",
-    "codes": "bob_menu_cannon"
+    "codes": "bob_menu_cannons"
   },
   {
     "name": "Triple jump",

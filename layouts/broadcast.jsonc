@@ -12,7 +12,11 @@
         "content": [
           {
             "type": "layout",
-            "key": "shared_item_grid"
+            "key": "castle_item_grid"
+          },
+          {
+            "type": "layout",
+            "key": "bob_item_grid"
           }
         ]
       }
