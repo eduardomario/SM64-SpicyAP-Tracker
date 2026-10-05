@@ -9,7 +9,6 @@
       "tabs": [
         {
           "title": "Castle",
-          "type": "container",
           "content": [
             {
               "type": "dock",
@@ -48,7 +47,6 @@
         },
         {
           "title": "BoB",
-          "type": "container",
           "content": [
             {
               "type": "dock",
