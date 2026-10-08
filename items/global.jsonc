@@ -1,0 +1,320 @@
+[
+  {
+    "name": "Wing cap",
+    "type": "custom",
+    "img": "images/items/blocks/red_box.png",
+    "codes": "global_menu_wing_box"
+  },
+  {
+    "name": "Metal cap",
+    "type": "custom",
+    "img": "images/items/blocks/green_box.png",
+    "codes": "global_menu_metal_box"
+  },
+  {
+    "name": "Vanish cap",
+    "type": "custom",
+    "img": "images/items/blocks/blue_box.png",
+    "codes": "global_menu_vanish_box"
+  },
+  {
+    "name": "Triple jump",
+    "type": "custom",
+    "img": "images/items/mario/triple_jump.jpg",
+    "codes": "global_menu_mario_triple_jump"
+  },
+  {
+    "name": "Long jump",
+    "type": "custom",
+    "img": "images/items/mario/long_jump.jpg",
+    "codes": "global_menu_mario_long_jump"
+  },
+  {
+    "name": "Backflip",
+    "type": "custom",
+    "img": "images/items/mario/backflip.jpg",
+    "codes": "global_menu_mario_backflip"
+  },
+  {
+    "name": "Side flip",
+    "type": "custom",
+    "img": "images/items/mario/side_flip.png",
+    "codes": "global_menu_mario_side_flip"
+  },
+  {
+    "name": "Wall kick",
+    "type": "custom",
+    "img": "images/items/mario/wall_kick.png",
+    "codes": "global_menu_mario_wall_kick"
+  },
+  {
+    "name": "Dive",
+    "type": "custom",
+    "img": "images/items/mario/dive.png",
+    "codes": "global_menu_mario_dive"
+  },
+  {
+    "name": "Ground pound",
+    "type": "custom",
+    "img": "images/items/mario/ground_pound.jpg",
+    "codes": "global_menu_mario_ground_pound"
+  },
+  {
+    "name": "Kick",
+    "type": "custom",
+    "img": "images/items/mario/kick.png",
+    "codes": "global_menu_mario_kick"
+  },
+  {
+    "name": "Climb",
+    "type": "custom",
+    "img": "images/items/mario/climb.jpg",
+    "codes": "global_menu_mario_climb"
+  },
+  {
+    "name": "Ledge grab",
+    "type": "custom",
+    "img": "images/items/mario/ledge_grab.jpg",
+    "codes": "global_menu_mario_ledge_grab"
+  },
+  {
+    "name": "1UP",
+    "type": "custom",
+    "img": "images/items/collectables/1up.png",
+    "codes": "global_menu_1up"
+  },
+  {
+    "name": "1UP Trigger",
+    "type": "custom",
+    "img": "images/items/triggers/1up_trigger.png",
+    "codes": "global_menu_1up_trigger"
+  },
+  {
+    "name": "1UP Block",
+    "type": "custom",
+    "img": "images/items/blocks/yellow_box.png",
+    "codes": "global_menu_1up_block"
+  },
+  {
+    "name": "Butterflies",
+    "type": "custom",
+    "img": "images/items/triggers/butterfly.png",
+    "codes": "global_menu_butterflies"
+  },
+  {
+    "name": "Monty moles",
+    "type": "custom",
+    "img": "images/items/character/monty_mole.png",
+    "codes": "global_menu_monty_moles"
+  },
+  {
+    "name": "Single coins",
+    "type": "custom",
+    "img": "images/items/collectables/yellow_coin.png",
+    "codes": "global_menu_single_coins"
+  },
+  {
+    "name": "Red coins",
+    "type": "custom",
+    "img": "images/items/collectables/red_coin.png",
+    "codes": "global_menu_red_coins"
+  },
+  {
+    "name": "Single blue coins",
+    "type": "custom",
+    "img": "images/items/collectables/blue_coin.png",
+    "codes": "global_menu_single_blue_coins"
+  },
+  {
+    "name": "Blue coins block",
+    "type": "custom",
+    "img": "images/items/collectables/blue_coin.png",
+    "codes": "global_menu_blue_coins_block"
+  },
+  {
+    "name": "Horizontal coin lines",
+    "type": "custom",
+    "img": "images/items/collectables/yellow_coin.png",
+    "codes": "global_menu_h_coin_lines"
+  },
+  {
+    "name": "Horizontal coin rings",
+    "type": "custom",
+    "img": "images/items/collectables/yellow_coin.png",
+    "codes": "global_menu_h_coin_rings"
+  },
+  {
+    "name": "Coin arrows",
+    "type": "custom",
+    "img": "images/items/collectables/yellow_coin.png",
+    "codes": "global_menu_coin_arrows"
+  },
+  {
+    "name": "Vertical coin lines",
+    "type": "custom",
+    "img": "images/items/collectables/yellow_coin.png",
+    "codes": "global_menu_v_coin_lines"
+  },
+  {
+    "name": "Vertical coin rings",
+    "type": "custom",
+    "img": "images/items/collectables/yellow_coin.png",
+    "codes": "global_menu_v_coin_rings"
+  },
+  {
+    "name": "Crate boxes",
+    "type": "custom",
+    "img": "images/items/blocks/crate_box.png",
+    "codes": "global_menu_crate_boxes"
+  },
+  {
+    "name": "Throw boxes",
+    "type": "custom",
+    "img": "images/items/blocks/crate_box.png",
+    "codes": "global_menu_throw_boxes"
+  },
+  {
+    "name": "Crazy boxes",
+    "type": "custom",
+    "img": "images/items/blocks/crazy_box.png",
+    "codes": "global_menu_crazy_boxes"
+  },
+  {
+    "name": "Wooden posts",
+    "type": "custom",
+    "img": "images/items/objects/wooden_post.png",
+    "codes": "global_menu_wooden_posts"
+  },
+  {
+    "name": "Three coin blocks",
+    "type": "custom",
+    "img": "images/items/blocks/yellow_box.png",
+    "codes": "global_menu_3_coin_blocks"
+  },
+  {
+    "name": "Ten coin blocks",
+    "type": "custom",
+    "img": "images/items/blocks/yellow_box.png",
+    "codes": "global_menu_10_coin_blocks"
+  },
+  {
+    "name": "Bob-ombs",
+    "type": "custom",
+    "img": "images/items/enemies/bob-omb.png",
+    "codes": "global_menu_bob_ombs"
+  },
+  {
+    "name": "Boos",
+    "type": "custom",
+    "img": "images/items/enemies/boo.png",
+    "codes": "global_menu_boos"
+  },
+  {
+    "name": "Bullies",
+    "type": "custom",
+    "img": "images/items/enemies/bully.png",
+    "codes": "global_menu_bullies"
+  },
+  {
+    "name": "Chuckyas",
+    "type": "custom",
+    "img": "images/items/enemies/chuckya.png",
+    "codes": "global_menu_chuckyas"
+  },
+  {
+    "name": "Lakitus",
+    "type": "custom",
+    "img": "images/items/enemies/lakitu.png",
+    "codes": "global_menu_lakitus"
+  },
+  {
+    "name": "Fire piranha plants",
+    "type": "custom",
+    "img": "images/items/enemies/piranha_plant.png",
+    "codes": "global_menu_fire_piranha_plants"
+  },
+  {
+    "name": "Fly guys",
+    "type": "custom",
+    "img": "images/items/enemies/fly_guy.png",
+    "codes": "global_menu_fly_guys"
+  },
+  {
+    "name": "Goombas",
+    "type": "custom",
+    "img": "images/items/enemies/goomba.png",
+    "codes": "global_menu_goombas"
+  },
+  {
+    "name": "Koopa troopas",
+    "type": "custom",
+    "img": "images/items/enemies/koopa.png",
+    "codes": "global_menu_koopa_troopas"
+  },
+  {
+    "name": "Mr. Blizzards",
+    "type": "custom",
+    "img": "images/items/enemies/mr_blizzard.png",
+    "codes": "global_menu_mr_blizzards"
+  },
+  {
+    "name": "Mr. Is",
+    "type": "custom",
+    "img": "images/items/enemies/mr_i.png",
+    "codes": "global_menu_mr_is"
+  },
+  {
+    "name": "Scuttlebugs",
+    "type": "custom",
+    "img": "images/items/enemies/scuttlebug.png",
+    "codes": "global_menu_scuttlebugs"
+  },
+  {
+    "name": "Scuttlebugs",
+    "type": "custom",
+    "img": "images/items/enemies/scuttlebug.png",
+    "codes": "global_menu_scuttlebugs"
+  },
+  {
+    "name": "Snufits",
+    "type": "custom",
+    "img": "images/items/enemies/snufit.png",
+    "codes": "global_menu_snufits"
+  },
+  {
+    "name": "Spindrifts",
+    "type": "custom",
+    "img": "images/items/enemies/spindel.png",
+    "codes": "global_menu_spindrifts"
+  },
+  {
+    "name": "Whomps",
+    "type": "custom",
+    "img": "images/items/enemies/whomp.png",
+    "codes": "global_menu_whomps"
+  },
+  {
+    "name": "Big bullies",
+    "type": "custom",
+    "img": "images/items/enemies/bully.png",
+    "codes": "global_menu_big_bullies"
+  },
+  {
+    "name": "Thwomps and Grindels",
+    "type": "custom",
+    "img": "images/items/enemies/thwomp.png",
+    "codes": "global_menu_thwomps_grindels"
+  },
+  {
+    "name": "Heave hos",
+    "type": "custom",
+    "img": "images/items/enemies/heave_ho.png",
+    "codes": "global_menu_heave_hos"
+  },
+  {
+    "name": "Bowsers",
+    "type": "custom",
+    "img": "images/items/enemies/bowser.png",
+    "codes": "global_menu_bowsers"
+  }
+]

@@ -15,10 +15,6 @@
             "h_alignment": "left",
             "rows": [
               [
-                "castle_menu_basement_key",
-                "castle_menu_second_floor_key"
-              ],
-              [
                 "castle_menu_butterfly",
                 "castle_menu_1up",
                 "castle_menu_1up_trigger",

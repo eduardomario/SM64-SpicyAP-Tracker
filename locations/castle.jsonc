@@ -229,9 +229,7 @@
   },
   {
     "name": "Castle - Basement",
-    "access_rules": [
-      "castle_menu_basement_key"
-    ],
+    "access_rules": [],
     "children": [
       {
         "name": "Hallway",

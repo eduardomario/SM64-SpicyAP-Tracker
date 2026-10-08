@@ -49,15 +49,21 @@
   },
   {
     "name": "Mips",
-    "type": "toggle",
-    "img": "images/items/character/mips.png",
-    "codes": "castle_menu_mips"
-  },
-  {
-    "name": "Basement key",
-    "type": "toggle",
-    "img": "images/items/objects/key.png",
-    "codes": "castle_menu_basement_key"
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/character/mips.png",
+        "codes": "castle_menu_mips",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/character/mips.png",
+        "codes": "castle_menu_mips_2",
+        "inherit_codes": false
+      }
+    ]
   },
   {
     "name": "Second floor key",

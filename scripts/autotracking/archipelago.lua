@@ -50,7 +50,7 @@ function resetItem(item_code, item_type)
 		elseif item_type == "consumable" then
 			obj.AcquiredCount = 0
 		elseif item_type == "custom" then
-			-- your code for your custom lua items goes here
+			updateGlobalItemPerLevel(item_code)
 		elseif item_type == "static" and AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
 			print(string.format("resetItem: tried to reset static item %s", item_code))
 		elseif item_type == "composite_toggle" and AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
@@ -84,7 +84,7 @@ function incrementItem(item_code, item_type, multiplier)
 		elseif item_type == "consumable" then
 			obj.AcquiredCount = obj.AcquiredCount + obj.Increment * multiplier
 		elseif item_type == "custom" then
-			-- your code for your custom lua items goes here
+			updateGlobalItemPerLevel(item_code)
 		elseif item_type == "static" and AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
 			print(string.format("incrementItem: tried to increment static item %s", item_code))
 		elseif item_type == "composite_toggle" and AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
@@ -385,6 +385,22 @@ function updateHint(hint, sections_to_update)
 				end
 			end
 		end
+	end
+end
+
+function updateGlobalItemPerLevel(item_code)
+	local array = {"castle", "bob", "wf", "jrb", "ccm", "bbh", "hmc", "lll", "ssl", "ddd", "sl", "wdw", "ttm", "thi", "ttc", "rr", "pss", "sa", "totwc", "cotmc", "vcutm", "wmotr", "bitdw", "bitfs", "bits"}
+	local startIndex, endIndex = string.find(item_code, "global", 1, true)
+	if startIndex then
+		for _, level in ipairs(array) do
+			local new_code = string.gsub(item_code, "global", level)
+			local obj = Tracker:FindObjectForCode(new_code)
+			if obj then
+				obj.Active = true
+			end
+		end
+	else
+		print("updateGlobalItemPerLevel: No global code found", item_code)
 	end
 end
 
