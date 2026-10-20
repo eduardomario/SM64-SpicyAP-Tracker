@@ -183,7 +183,7 @@ ITEM_MAPPING = {
 	[BASE_ITEM_ID + 558] = { { "bitfs_menu_extra_1up", "toggle" } },
 
 	-- Action item data
-	-- [BASE_ITEM_ID + 185] = { { "global_menu_mario_double_jump", "toggle" } },
+	-- [BASE_ITEM_ID + 185] = { { "global_menu_mario_double_jump", "custom" } },
 	[BASE_ITEM_ID + 186] = { { "global_menu_mario_triple_jump", "custom" } },
 	[BASE_ITEM_ID + 187] = { { "global_menu_mario_long_jump", "custom" } },
 	[BASE_ITEM_ID + 188] = { { "global_menu_mario_backflip", "custom" } },
@@ -894,5 +894,4 @@ ITEM_MAPPING = {
 
 	-- Wiggler
 	[3626979] = { { "thi_menu_wiggler", "toggle" } }
-
 }
