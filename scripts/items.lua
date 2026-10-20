@@ -1,0 +1,5 @@
+Tracker:AddItems("items/items.jsonc")
+Tracker:AddItems("items/global.jsonc")
+Tracker:AddItems("items/castle.jsonc")
+Tracker:AddItems("items/bob.jsonc")
+Tracker:AddItems("items/wf.jsonc")

@@ -28,5 +28,11 @@
     "location_size": 36,
     "location_border_thickness": 4,
     "img": "images/maps/bob.png"
+  },
+  {
+    "name": "wf",
+    "location_size": 36,
+    "location_border_thickness": 4,
+    "img": "images/maps/wf.png"
   }
 ]

@@ -1,0 +1,169 @@
+[
+  // Collectables
+  {
+    "name": "Single Coins",
+    "type": "toggle",
+    "img": "images/items/collectables/yellow_coin.png",
+    "codes": "wf_menu_single_coins"
+  },
+  {
+    "name": "Blue Coin Box",
+    "type": "toggle",
+    "img": "images/items/collectables/blue_coin.png",
+    "codes": "wf_menu_blue_coin_boxes"
+  },
+  {
+    "name": "Horizontal Coin Lines",
+    "type": "toggle",
+    "img": "images/items/collectables/yellow_coin.png",
+    "codes": "wf_menu_h_coin_lines"
+  },
+  {
+    "name": "Horizontal Coin Rings",
+    "type": "toggle",
+    "img": "images/items/collectables/yellow_coin.png",
+    "codes": "wf_menu_h_coin_rings"
+  },
+  {
+    "name": "Coin Arrow",
+    "type": "toggle",
+    "img": "images/items/collectables/yellow_coin.png",
+    "codes": "wf_menu_coin_arrows"
+  },
+  {
+    "name": "Red Coins",
+    "type": "toggle",
+    "img": "images/items/collectables/red_coin.png",
+    "codes": "wf_menu_red_coins"
+  },
+  {
+    "name": "1UP",
+    "type": "toggle",
+    "img": "images/items/collectables/1up.png",
+    "codes": "wf_menu_1up"
+  },
+  {
+    "name": "1UP Trigger",
+    "type": "toggle",
+    "img": "images/items/triggers/1up_trigger.png",
+    "codes": "wf_menu_1up_trigger"
+  },
+  {
+    "name": "Butterflies",
+    "type": "toggle",
+    "img": "images/items/triggers/butterfly.png",
+    "codes": "wf_menu_butterfly"
+  },
+  {
+    "name": "Throw Box",
+    "type": "toggle",
+    "img": "images/items/blocks/crate_box.png",
+    "codes": "wf_menu_throw_boxes"
+  },
+
+  // Stars or Missions
+  {
+    "name": "Freestanding Stars",
+    "type": "toggle",
+    "img": "images/items/objects/power_star.png",
+    "codes": "wf_menu_freestanding_star"
+  },
+  {
+    "name": "Cannon",
+    "type": "toggle",
+    "img": "images/items/objects/unlock_cannon.png",
+    "codes": "wf_menu_cannons"
+  },
+  {
+    "name": "Metal Cap Box",
+    "type": "toggle",
+    "img": "images/items/blocks/green_box.png",
+    "codes": "wf_menu_metal_box"
+  },
+  {
+    "name": "King Whomp",
+    "type": "toggle",
+    "img": "images/items/enemies/whomp.png",
+    "codes": "wf_menu_king_whomp"
+  },
+  {
+    "name": "Fortress",
+    "type": "toggle",
+    "img": "images/items/objects/fortress.png",
+    "codes": "wf_menu_fortress"
+  },
+  {
+    "name": "Bob-omb Buddy",
+    "type": "toggle",
+    "img": "images/items/character/bob_omb_buddy.png",
+    "codes": "wf_menu_bob_omb_buddy"
+  },
+  {
+    "name": "Hoot",
+    "type": "toggle",
+    "img": "images/items/character/hoot.png",
+    "codes": "wf_menu_hoot"
+  },
+
+  // Movement
+  {
+    "name": "Triple jump",
+    "type": "toggle",
+    "img": "images/items/mario/triple_jump.jpg",
+    "codes": "wf_menu_mario_triple_jump"
+  },
+  {
+    "name": "Long jump",
+    "type": "toggle",
+    "img": "images/items/mario/long_jump.jpg",
+    "codes": "wf_menu_mario_long_jump"
+  },
+  {
+    "name": "Backflip",
+    "type": "toggle",
+    "img": "images/items/mario/backflip.jpg",
+    "codes": "wf_menu_mario_backflip"
+  },
+  {
+    "name": "Side flip",
+    "type": "toggle",
+    "img": "images/items/mario/side_flip.png",
+    "codes": "wf_menu_mario_side_flip"
+  },
+  {
+    "name": "Wall kick",
+    "type": "toggle",
+    "img": "images/items/mario/wall_kick.png",
+    "codes": "wf_menu_mario_wall_kick"
+  },
+  {
+    "name": "Dive",
+    "type": "toggle",
+    "img": "images/items/mario/dive.png",
+    "codes": "wf_menu_mario_dive"
+  },
+  {
+    "name": "Ground pound",
+    "type": "toggle",
+    "img": "images/items/mario/ground_pound.jpg",
+    "codes": "wf_menu_mario_ground_pound"
+  },
+  {
+    "name": "Kick",
+    "type": "toggle",
+    "img": "images/items/mario/kick.png",
+    "codes": "wf_menu_mario_kick"
+  },
+  {
+    "name": "Climb",
+    "type": "toggle",
+    "img": "images/items/mario/climb.jpg",
+    "codes": "wf_menu_mario_climb"
+  },
+  {
+    "name": "Ledge grab",
+    "type": "toggle",
+    "img": "images/items/mario/ledge_grab.jpg",
+    "codes": "wf_menu_mario_ledge_grab"
+  }
+]

@@ -15,22 +15,23 @@
             "h_alignment": "left",
             "rows": [
               [
-                "bob_menu_1up",
-                "bob_menu_1up_trigger",
                 "bob_menu_single_coins",
                 "bob_menu_h_coin_lines",
                 "bob_menu_h_coin_rings",
                 "bob_menu_v_coin_rings",
                 "bob_menu_red_coins",
+                "bob_menu_1up",
+                "bob_menu_1up_trigger",
                 "bob_menu_crate_boxes",
-                "bob_menu_throw_boxes"
+                "bob_menu_throw_boxes",
+                "bob_menu_wooden_posts"
               ],
               [
                 "bob_menu_star_block",
                 "bob_menu_freestanding_star",
                 "bob_menu_star_secrets",
-                "bob_menu_wing_box",
                 "bob_menu_cannons",
+                "bob_menu_wing_box",
                 "bob_menu_king_bob_omb",
                 "bob_menu_koopa_quick",
                 "bob_menu_bob_omb_buddy"

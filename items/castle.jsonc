@@ -1,9 +1,10 @@
 [
+  // Collectables
   {
-    "name": "Butterflies",
+    "name": "Single Coins",
     "type": "toggle",
-    "img": "images/items/triggers/butterfly.png",
-    "codes": "castle_menu_butterfly"
+    "img": "images/items/collectables/yellow_coin.png",
+    "codes": "castle_menu_single_coins"
   },
   {
     "name": "1UP",
@@ -18,10 +19,10 @@
     "codes": "castle_menu_1up_trigger"
   },
   {
-    "name": "Single Coins",
+    "name": "Butterflies",
     "type": "toggle",
-    "img": "images/items/collectables/yellow_coin.png",
-    "codes": "castle_menu_single_coins"
+    "img": "images/items/triggers/butterfly.png",
+    "codes": "castle_menu_butterfly"
   },
   {
     "name": "Wing Cap Box",
@@ -71,12 +72,8 @@
       }
     ]
   },
-  {
-    "name": "Second floor key",
-    "type": "toggle",
-    "img": "images/items/objects/key.png",
-    "codes": "castle_menu_second_floor_key"
-  },
+
+  // Movement
   {
     "name": "Triple jump",
     "type": "toggle",

@@ -1,0 +1,56 @@
+{
+  "wf_item_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "5, 5",
+            "h_alignment": "left",
+            "rows": [
+              [
+                "wf_menu_single_coins",
+                "wf_menu_blue_coin_boxes",
+                "wf_menu_h_coin_lines",
+                "wf_menu_h_coin_rings",
+                "wf_menu_coin_arrows",
+                "wf_menu_red_coins",
+                "wf_menu_1up",
+                "wf_menu_1up_trigger",
+                "wf_menu_butterfly",
+                "wf_menu_throw_boxes"
+              ],
+              [
+                "wf_menu_freestanding_star",
+                "wf_menu_cannons",
+                "wf_menu_metal_box",
+                "wf_menu_king_whomp",
+                "wf_menu_fortress",
+                "wf_menu_bob_omb_buddy",
+                "wf_menu_hoot"
+              ],
+              [
+                "wf_menu_mario_triple_jump",
+                "wf_menu_mario_long_jump",
+                "wf_menu_mario_backflip",
+                "wf_menu_mario_side_flip",
+                "wf_menu_mario_wall_kick",
+                "wf_menu_mario_dive",
+                "wf_menu_mario_ground_pound",
+                "wf_menu_mario_kick",
+                "wf_menu_mario_climb",
+                "wf_menu_mario_ledge_grab"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

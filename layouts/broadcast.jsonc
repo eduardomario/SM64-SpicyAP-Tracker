@@ -17,6 +17,10 @@
           {
             "type": "layout",
             "key": "bob_item_grid"
+          },
+          {
+            "type": "layout",
+            "key": "wf_item_grid"
           }
         ]
       }

@@ -15,10 +15,10 @@
             "h_alignment": "left",
             "rows": [
               [
-                "castle_menu_butterfly",
+                "castle_menu_single_coins",
                 "castle_menu_1up",
                 "castle_menu_1up_trigger",
-                "castle_menu_single_coins",
+                "castle_menu_butterfly",
                 "castle_menu_wing_box",
                 "castle_menu_cannon",
                 "castle_menu_toad",

@@ -1,0 +1,5 @@
+Tracker:AddLayouts("layouts/tracker.jsonc")
+Tracker:AddLayouts("layouts/broadcast.jsonc")
+Tracker:AddLayouts("layouts/items_castle.jsonc")
+Tracker:AddLayouts("layouts/items_bob.jsonc")
+Tracker:AddLayouts("layouts/items_wf.jsonc")
