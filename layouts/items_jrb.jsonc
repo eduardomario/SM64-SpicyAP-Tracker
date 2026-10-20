@@ -1,0 +1,57 @@
+{
+  "jrb_item_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "5, 5",
+            "h_alignment": "left",
+            "rows": [
+              [
+                "jrb_menu_blue_coin_boxes",
+                "jrb_menu_h_coin_lines",
+                "jrb_menu_h_coin_rings",
+                "jrb_menu_v_coin_lines",
+                "jrb_menu_v_coin_rings",
+                "jrb_menu_3_coin_blocks",
+                "jrb_menu_red_coins",
+                "jrb_menu_1up",
+                "jrb_menu_1up_trigger"
+              ],
+              [
+                "jrb_menu_star_block",
+                "jrb_menu_freestanding_star",
+                "jrb_menu_cannons",
+                "jrb_menu_metal_box",
+                "jrb_menu_sunken_ship",
+                "jrb_menu_raised_ship",
+                "jrb_menu_bob_omb_buddy",
+                "jrb_menu_unagi",
+                "jrb_menu_treasure_chests"
+              ],
+              [
+                "jrb_menu_mario_triple_jump",
+                "jrb_menu_mario_long_jump",
+                "jrb_menu_mario_backflip",
+                "jrb_menu_mario_side_flip",
+                "jrb_menu_mario_wall_kick",
+                "jrb_menu_mario_dive",
+                "jrb_menu_mario_ground_pound",
+                "jrb_menu_mario_kick",
+                "jrb_menu_mario_climb",
+                "jrb_menu_mario_ledge_grab"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -21,6 +21,10 @@
           {
             "type": "layout",
             "key": "wf_item_grid"
+          },
+          {
+            "type": "layout",
+            "key": "jrb_item_grid"
           }
         ]
       }
