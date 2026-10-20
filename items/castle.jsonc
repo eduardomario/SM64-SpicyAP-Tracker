@@ -48,6 +48,12 @@
     "codes": "castle_menu_toad"
   },
   {
+    "name": "Boos",
+    "type": "toggle",
+    "img": "images/items/enemies/boo.png",
+    "codes": "castle_menu_boos"
+  },
+  {
     "name": "Mips",
     "type": "progressive",
     "allow_disabled": true,

@@ -18,19 +18,19 @@
     "codes": "bob_menu_single_coins"
   },
   {
-    "name": "Horizontal Coins Lines",
+    "name": "Horizontal Coin Lines",
     "type": "toggle",
     "img": "images/items/collectables/yellow_coin.png",
     "codes": "bob_menu_h_coin_lines"
   },
   {
-    "name": "Horizontal Coins Rings",
+    "name": "Horizontal Coin Rings",
     "type": "toggle",
     "img": "images/items/collectables/yellow_coin.png",
     "codes": "bob_menu_h_coin_rings"
   },
   {
-    "name": "Vertical Coins Rings",
+    "name": "Vertical Coin Rings",
     "type": "toggle",
     "img": "images/items/collectables/yellow_coin.png",
     "codes": "bob_menu_v_coin_rings"
@@ -48,10 +48,10 @@
     "codes": "bob_menu_wing_box"
   },
   {
-    "name": "Star Box",
+    "name": "Star Block",
     "type": "toggle",
     "img": "images/items/blocks/yellow_box.png",
-    "codes": "bob_menu_star_box"
+    "codes": "bob_menu_star_block"
   },
   {
     "name": "Crate Box",
@@ -64,6 +64,42 @@
     "type": "toggle",
     "img": "images/items/blocks/crate_box.png",
     "codes": "bob_menu_throw_boxes"
+  },
+  {
+    "name": "Wooden Posts",
+    "type": "toggle",
+    "img": "images/items/objects/wooden_post.png",
+    "codes": "bob_menu_wooden_posts"
+  },
+  {
+    "name": "King Bob-omb",
+    "type": "toggle",
+    "img": "images/items/enemies/king_bob_omb.png",
+    "codes": "bob_menu_king_bob_omb"
+  },
+  {
+    "name": "Bob-omb Buddy",
+    "type": "toggle",
+    "img": "images/items/enemies/koopa_the_quick.png",
+    "codes": "bob_menu_koopa_quick"
+  },
+  {
+    "name": "Bob-omb Buddy",
+    "type": "toggle",
+    "img": "images/items/character/bob_omb_buddy.png",
+    "codes": "bob_menu_bob_omb_buddy"
+  },
+  {
+    "name": "Freestanding Stars",
+    "type": "toggle",
+    "img": "images/items/objects/power_star.png",
+    "codes": "bob_menu_freestanding_star"
+  },
+  {
+    "name": "Star Secrets",
+    "type": "toggle",
+    "img": "images/items/triggers/star_trigger.png",
+    "codes": "bob_menu_star_secrets"
   },
   {
     "name": "Cannon",

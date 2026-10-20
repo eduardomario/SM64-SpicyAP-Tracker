@@ -484,6 +484,19 @@ ITEM_MAPPING = {
 	[BASE_ITEM_ID + 1100] = { { "mics_menu_mario_climb", "toggle" } },
 	[BASE_ITEM_ID + 1101] = { { "mics_menu_mario_ledge_grab", "toggle" } },
 
+	-- cannon item data
+	[BASE_ITEM_ID + 200] = { { "bob_menu_cannons", "toggle" } },
+	[BASE_ITEM_ID + 201] = { { "wf_menu_cannons", "toggle" } },
+	[BASE_ITEM_ID + 202] = { { "jrb_menu_cannons", "toggle" } },
+	[BASE_ITEM_ID + 203] = { { "ccm_menu_cannons", "toggle" } },
+	[BASE_ITEM_ID + 207] = { { "ssl_menu_cannons", "toggle" } },
+	[BASE_ITEM_ID + 208] = { { "sl_menu_cannons", "toggle" } },
+	[BASE_ITEM_ID + 210] = { { "wdw_menu_cannons", "toggle" } },
+	[BASE_ITEM_ID + 211] = { { "ttm_menu_cannons", "toggle" } },
+	[BASE_ITEM_ID + 212] = { { "thi_menu_cannons", "toggle" } },
+	[BASE_ITEM_ID + 214] = { { "rr_menu_cannons", "toggle" } },
+	[BASE_ITEM_ID + 525] = { { "wmotr_menu_cannons", "toggle" } },
+
 	-- 1up unlock item data
 	[BASE_ITEM_ID + 855] = { { "global_menu_1up", "custom" } },
 	[BASE_ITEM_ID + 856] = { { "global_menu_1up_trigger", "custom" } },
@@ -713,9 +726,9 @@ ITEM_MAPPING = {
 	[3626798] = { { "wdw_menu_crate_boxes", "toggle" } },
 
 	-- Trowable coin boxes
-	[3626799] = { { "bob_menu_crate_boxes", "toggle" } },
-	[3626800] = { { "ssl_menu_crate_boxes", "toggle" } },
-	[3626801] = { { "wf_menu_crate_boxes", "toggle" } },
+	[3626799] = { { "bob_menu_throw_boxes", "toggle" } },
+	[3626800] = { { "ssl_menu_throw_boxes", "toggle" } },
+	[3626801] = { { "wf_menu_throw_boxes", "toggle" } },
 
 	-- Crazy boxes
 	[3626802] = { { "bbh_menu_crazy_boxes", "toggle" } },
@@ -779,7 +792,7 @@ ITEM_MAPPING = {
 
 	-- Boos
 	[3626730] = { { "bbh_menu_boos", "toggle" } },
-	[3626732] = { { "castle__menu_boos", "toggle" } },
+	[3626732] = { { "castle_menu_boos", "toggle" } },
 
 	-- Bullies
 	[3626733] = { { "bitfs_menu_bullies", "toggle" } },
