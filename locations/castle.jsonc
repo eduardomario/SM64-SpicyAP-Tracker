@@ -1,6 +1,6 @@
 [
   {
-    "name": "Castle - Exterior",
+    "name": "Castle Grounds",
     "chest_unopened_img": "images/items/collectables/yellow_coin.png",
     "chest_opened_img": "images/items/collectables/collected_coin.png",
     "children": [
@@ -131,7 +131,7 @@
     ]
   },
   {
-    "name": "Castle - First Floor",
+    "name": "Castle First Floor",
     "chest_unopened_img": "images/items/collectables/yellow_coin.png",
     "chest_opened_img": "images/items/collectables/collected_coin.png",
     "children": [
@@ -179,7 +179,7 @@
     ]
   },
   {
-    "name": "Castle - Second Floor",
+    "name": "Castle Second Floor",
     "chest_unopened_img": "images/items/character/toad.png",
     "chest_opened_img": "images/items/character/talked_toad.png",
     "access_rules": [
@@ -228,7 +228,7 @@
     ]
   },
   {
-    "name": "Castle - Basement",
+    "name": "Castle Basement",
     "access_rules": [],
     "children": [
       {
