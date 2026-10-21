@@ -6,6 +6,9 @@
 BASE_LOCATION_ID = 3626000
 COLLECTABLE_INDEX = 3000
 COINS_LOCATION_ID = 4000000
+STAGES_INDEX = {
+	['bob'] = 0
+}
 LOCATION_MAPPING = {
 	-- Missions/Buddy/Blocks 1up
 	-- Bob-omb Battlefield
@@ -527,6 +530,159 @@ LOCATION_MAPPING = {
 
 	-- Coins
 	-- Bob-omb Battlefield
-	[COINS_LOCATION_ID] = { { "Bob-omb Battlefield - Wooden Posts Red Coin 1" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob']] = { { "Bob-omb Battlefield - Wooden Posts Red Coin 1" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 1] = { { "Bob-omb Battlefield - Wooden Posts Red Coin 2" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 2] = { { "Bob-omb Battlefield - Grass Ramp Red Coin" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 3] = { { "Bob-omb Battlefield - Chain Chomp Red Coin" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 4] = { { "Bob-omb Battlefield - Checkerboard Platform Red Coin" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 5] = { { "Bob-omb Battlefield - Switch Tunnel Red Coin" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 6] = { { "Bob-omb Battlefield - Below the Island Red Coin" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 7] = { { "Bob-omb Battlefield - Island Red Coin" } },
 
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 8] = { { "Bob-omb Battlefield - Large Breakable Coin Box near the Start Coin 1" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 9] = { { "Bob-omb Battlefield - Large Breakable Coin Box near the Start Coin 2" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 10] = { { "Bob-omb Battlefield - Large Breakable Coin Box near the Start Coin 3" } },
+
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 11] = { { "Bob-omb Battlefield - Throwable Cork Box near the Start 1 Coin 1" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 12] = { { "Bob-omb Battlefield - Throwable Cork Box near the Start 1 Coin 2" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 13] = { { "Bob-omb Battlefield - Throwable Cork Box near the Start 1 Coin 3" } },
+
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 14] = { { "Bob-omb Battlefield - Throwable Cork Box near the Start 2 Coin 1" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 15] = { { "Bob-omb Battlefield - Throwable Cork Box near the Start 2 Coin 2" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 16] = { { "Bob-omb Battlefield - Throwable Cork Box near the Start 2 Coin 3" } },
+
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 17] = { { "Bob-omb Battlefield - Coin Line 1 Coin 1" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 18] = { { "Bob-omb Battlefield - Coin Line 1 Coin 2" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 19] = { { "Bob-omb Battlefield - Coin Line 1 Coin 3" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 20] = { { "Bob-omb Battlefield - Coin Line 1 Coin 4" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 21] = { { "Bob-omb Battlefield - Coin Line 1 Coin 5" } },
+
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 22] = { { "Bob-omb Battlefield - Bubble Cannon Coin Line Coin 1" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 23] = { { "Bob-omb Battlefield - Bubble Cannon Coin Line Coin 2" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 24] = { { "Bob-omb Battlefield - Bubble Cannon Coin Line Coin 3" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 25] = { { "Bob-omb Battlefield - Bubble Cannon Coin Line Coin 4" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 26] = { { "Bob-omb Battlefield - Bubble Cannon Coin Line Coin 5" } },
+
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 27] = { { "Bob-omb Battlefield - Coin Line 3 Coin 1" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 28] = { { "Bob-omb Battlefield - Coin Line 3 Coin 2" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 29] = { { "Bob-omb Battlefield - Coin Line 3 Coin 3" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 30] = { { "Bob-omb Battlefield - Coin Line 3 Coin 4" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 31] = { { "Bob-omb Battlefield - Coin Line 3 Coin 5" } },
+
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 32] = { { "Bob-omb Battlefield - Chain Chomp's Wooden Post Coin 1" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 33] = { { "Bob-omb Battlefield - Chain Chomp's Wooden Post Coin 2" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 34] = { { "Bob-omb Battlefield - Chain Chomp's Wooden Post Coin 3" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 35] = { { "Bob-omb Battlefield - Chain Chomp's Wooden Post Coin 4" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 36] = { { "Bob-omb Battlefield - Chain Chomp's Wooden Post Coin 5" } },
+
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 37] = { { "Bob-omb Battlefield - Wooden Post 1 Coin 1" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 38] = { { "Bob-omb Battlefield - Wooden Post 1 Coin 2" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 39] = { { "Bob-omb Battlefield - Wooden Post 1 Coin 3" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 40] = { { "Bob-omb Battlefield - Wooden Post 1 Coin 4" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 41] = { { "Bob-omb Battlefield - Wooden Post 1 Coin 5" } },
+
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 42] = { { "Bob-omb Battlefield - Wooden Post 2 Coin 1" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 43] = { { "Bob-omb Battlefield - Wooden Post 2 Coin 2" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 44] = { { "Bob-omb Battlefield - Wooden Post 2 Coin 3" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 45] = { { "Bob-omb Battlefield - Wooden Post 2 Coin 4" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 46] = { { "Bob-omb Battlefield - Wooden Post 2 Coin 5" } },
+
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 47] = { { "Bob-omb Battlefield - Wooden Post 3 Coin 1" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 48] = { { "Bob-omb Battlefield - Wooden Post 3 Coin 2" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 49] = { { "Bob-omb Battlefield - Wooden Post 3 Coin 3" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 50] = { { "Bob-omb Battlefield - Wooden Post 3 Coin 4" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 51] = { { "Bob-omb Battlefield - Wooden Post 3 Coin 5" } },
+
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 52] = { { "Bob-omb Battlefield - Wooden Post 4 Coin 1" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 53] = { { "Bob-omb Battlefield - Wooden Post 4 Coin 2" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 54] = { { "Bob-omb Battlefield - Wooden Post 4 Coin 3" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 55] = { { "Bob-omb Battlefield - Wooden Post 4 Coin 4" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 56] = { { "Bob-omb Battlefield - Wooden Post 4 Coin 5" } },
+
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 57] = { { "Bob-omb Battlefield - Flowerbed Coin Ring Coin 1" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 58] = { { "Bob-omb Battlefield - Flowerbed Coin Ring Coin 2" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 59] = { { "Bob-omb Battlefield - Flowerbed Coin Ring Coin 3" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 60] = { { "Bob-omb Battlefield - Flowerbed Coin Ring Coin 4" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 61] = { { "Bob-omb Battlefield - Flowerbed Coin Ring Coin 5" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 62] = { { "Bob-omb Battlefield - Flowerbed Coin Ring Coin 6" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 63] = { { "Bob-omb Battlefield - Flowerbed Coin Ring Coin 7" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 64] = { { "Bob-omb Battlefield - Flowerbed Coin Ring Coin 8" } },
+
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 65] = { { "Bob-omb Battlefield - Bob-omb 11 Coin" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 66] = { { "Bob-omb Battlefield - Bob-omb 10 Coin" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 67] = { { "Bob-omb Battlefield - Bob-omb 9 Coin" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 68] = { { "Bob-omb Battlefield - Bob-omb 8 Coin" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 69] = { { "Bob-omb Battlefield - Bob-omb 7 Coin" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 70] = { { "Bob-omb Battlefield - Bob-omb 6 Coin" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 71] = { { "Bob-omb Battlefield - Bob-omb 5 Coin" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 72] = { { "Bob-omb Battlefield - Bob-omb 4 Coin" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 73] = { { "Bob-omb Battlefield - Bob-omb 3 Coin" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 74] = { { "Bob-omb Battlefield - Bob-omb 2 Coin" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 75] = { { "Bob-omb Battlefield - Bob-omb 1 Coin" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 76] = { { "Bob-omb Battlefield - Bob-omb 12 Coin" } },
+
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 77] = { { "Bob-omb Battlefield - Goomba 1 Coin" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 78] = { { "Bob-omb Battlefield - Goomba 2 Coin" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 79] = { { "Bob-omb Battlefield - Goomba 3 Coin" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 80] = { { "Bob-omb Battlefield - Goomba 4 Coin" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 81] = { { "Bob-omb Battlefield - Goomba 5 Coin" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 82] = { { "Bob-omb Battlefield - Goomba 6 Coin" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 83] = { { "Bob-omb Battlefield - Goomba 7 Coin" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 84] = { { "Bob-omb Battlefield - Goomba 8 Coin" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 85] = { { "Bob-omb Battlefield - Goomba 9 Coin" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 86] = { { "Bob-omb Battlefield - Goomba 10 Coin" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 87] = { { "Bob-omb Battlefield - Goomba 11 Coin" } },
+
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 88] = { { "Bob-omb Battlefield - Koopa Blue Coin" } },
+
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 89] = { { "Bob-omb Battlefield - Mario Wings to the Sky Vertical Coin Ring 5 Coin 1" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 90] = { { "Bob-omb Battlefield - Mario Wings to the Sky Vertical Coin Ring 5 Coin 2" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 91] = { { "Bob-omb Battlefield - Mario Wings to the Sky Vertical Coin Ring 5 Coin 3" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 92] = { { "Bob-omb Battlefield - Mario Wings to the Sky Vertical Coin Ring 5 Coin 4" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 93] = { { "Bob-omb Battlefield - Mario Wings to the Sky Vertical Coin Ring 5 Coin 5" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 94] = { { "Bob-omb Battlefield - Mario Wings to the Sky Vertical Coin Ring 5 Coin 6" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 95] = { { "Bob-omb Battlefield - Mario Wings to the Sky Vertical Coin Ring 5 Coin 7" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 96] = { { "Bob-omb Battlefield - Mario Wings to the Sky Vertical Coin Ring 5 Coin 8" } },
+
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 97] = { { "Bob-omb Battlefield - Mario Wings to the Sky Vertical Coin Ring 3 Coin 1" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 98] = { { "Bob-omb Battlefield - Mario Wings to the Sky Vertical Coin Ring 3 Coin 2" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 99] = { { "Bob-omb Battlefield - Mario Wings to the Sky Vertical Coin Ring 3 Coin 3" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 100] = { { "Bob-omb Battlefield - Mario Wings to the Sky Vertical Coin Ring 3 Coin 4" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 101] = { { "Bob-omb Battlefield - Mario Wings to the Sky Vertical Coin Ring 3 Coin 5" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 102] = { { "Bob-omb Battlefield - Mario Wings to the Sky Vertical Coin Ring 3 Coin 6" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 103] = { { "Bob-omb Battlefield - Mario Wings to the Sky Vertical Coin Ring 3 Coin 7" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 104] = { { "Bob-omb Battlefield - Mario Wings to the Sky Vertical Coin Ring 3 Coin 8" } },
+
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 105] = { { "Bob-omb Battlefield - Mario Wings to the Sky Vertical Coin Ring 2 Coin 1" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 106] = { { "Bob-omb Battlefield - Mario Wings to the Sky Vertical Coin Ring 2 Coin 2" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 107] = { { "Bob-omb Battlefield - Mario Wings to the Sky Vertical Coin Ring 2 Coin 3" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 108] = { { "Bob-omb Battlefield - Mario Wings to the Sky Vertical Coin Ring 2 Coin 4" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 109] = { { "Bob-omb Battlefield - Mario Wings to the Sky Vertical Coin Ring 2 Coin 5" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 110] = { { "Bob-omb Battlefield - Mario Wings to the Sky Vertical Coin Ring 2 Coin 6" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 111] = { { "Bob-omb Battlefield - Mario Wings to the Sky Vertical Coin Ring 2 Coin 7" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 112] = { { "Bob-omb Battlefield - Mario Wings to the Sky Vertical Coin Ring 2 Coin 8" } },
+
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 113] = { { "Bob-omb Battlefield - Mario Wings to the Sky Vertical Coin Ring 1 Coin 1" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 114] = { { "Bob-omb Battlefield - Mario Wings to the Sky Vertical Coin Ring 1 Coin 2" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 115] = { { "Bob-omb Battlefield - Mario Wings to the Sky Vertical Coin Ring 1 Coin 3" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 116] = { { "Bob-omb Battlefield - Mario Wings to the Sky Vertical Coin Ring 1 Coin 4" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 117] = { { "Bob-omb Battlefield - Mario Wings to the Sky Vertical Coin Ring 1 Coin 5" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 118] = { { "Bob-omb Battlefield - Mario Wings to the Sky Vertical Coin Ring 1 Coin 6" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 119] = { { "Bob-omb Battlefield - Mario Wings to the Sky Vertical Coin Ring 1 Coin 7" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 120] = { { "Bob-omb Battlefield - Mario Wings to the Sky Vertical Coin Ring 1 Coin 8" } },
+
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 121] = { { "Bob-omb Battlefield - Mario Wings to the Sky Vertical Coin Ring 4 Coin 1" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 122] = { { "Bob-omb Battlefield - Mario Wings to the Sky Vertical Coin Ring 4 Coin 2" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 123] = { { "Bob-omb Battlefield - Mario Wings to the Sky Vertical Coin Ring 4 Coin 3" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 124] = { { "Bob-omb Battlefield - Mario Wings to the Sky Vertical Coin Ring 4 Coin 4" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 125] = { { "Bob-omb Battlefield - Mario Wings to the Sky Vertical Coin Ring 4 Coin 5" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 126] = { { "Bob-omb Battlefield - Mario Wings to the Sky Vertical Coin Ring 4 Coin 6" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 127] = { { "Bob-omb Battlefield - Mario Wings to the Sky Vertical Coin Ring 4 Coin 7" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 128] = { { "Bob-omb Battlefield - Mario Wings to the Sky Vertical Coin Ring 4 Coin 8" } },
+
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 129] = { { "Bob-omb Battlefield - Mario Wings to the Sky Coin Ring 5 Center Coin" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 130] = { { "Bob-omb Battlefield - Mario Wings to the Sky Coin Ring 3 Center Coin" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 131] = { { "Bob-omb Battlefield - Mario Wings to the Sky Coin Ring 2 Center Coin" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 132] = { { "Bob-omb Battlefield - Mario Wings to the Sky Coin Ring 1 Center Coin" } },
+	[COINS_LOCATION_ID + STAGES_INDEX['bob'] + 133] = { { "Bob-omb Battlefield - Mario Wings to the Sky Coin Ring 4 Center Coin" } },
 }
